@@ -184,8 +184,8 @@ class TicketController extends Controller
             return \Carbon\Carbon::parse($ticket['ticketPayment']['booked_date'])->format('Y-m-d');
         })->toArray();
         // dd($tickets);
-        $flimActived = Movie::where('actived',1)->get();
-        $flimNonActived = Movie::where('actived',0)->get();
+        $flimActived = Movie::where('actived',1)->count();
+        $flimNonActived = Movie::where('actived',0)->count();
         // dd($flimActived);
 
         $label = array_keys($tickets);
