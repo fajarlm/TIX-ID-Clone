@@ -86,7 +86,8 @@
 
             // let age_rating = "";
             // if(item.age_rating <= 13){
-            //     age_rating = `<span class="badge badge-info">+${item.age_rating}</span>`
+            //     age_rating = `<span class="badge ba
+            // dge-info">+${item.age_rating}</span>`
             // }elseif(item.age_rating <= 17){
             //     age_rating = `<span class="badge badge-warning">+${item.age_rating}</span>`
             // }else{

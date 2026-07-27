@@ -69,7 +69,7 @@
                                     @endforeach
                                 </select>
                                 @error('movie_id')
-                                    <small class    ="text-danger">{{ $message }}</small>
+                                    <small class="text-danger">{{ $message }}</small>
                                 @enderror
                             </div>
                             <div class="mb-3">

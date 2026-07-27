@@ -381,6 +381,6 @@ class MovieController extends Controller
             'label' => $label,
             'data' => $data
         ]);
-
+        
     }
 }
